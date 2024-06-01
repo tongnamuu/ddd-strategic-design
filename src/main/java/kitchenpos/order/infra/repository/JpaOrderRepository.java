@@ -1,4 +1,4 @@
-package kitchenpos.infra.repository;
+package kitchenpos.order.infra.repository;
 
 import kitchenpos.order.domain.entity.Order;
 import kitchenpos.order.domain.repository.OrderRepository;

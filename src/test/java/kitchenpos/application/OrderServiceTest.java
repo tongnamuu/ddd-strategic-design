@@ -8,7 +8,7 @@ import kitchenpos.order.domain.OrderStatus;
 import kitchenpos.order.domain.entity.OrderTable;
 import kitchenpos.order.domain.repository.OrderTableRepository;
 import kitchenpos.order.domain.OrderType;
-import kitchenpos.order.domain.service.OrderService;
+import kitchenpos.order.domain.application.OrderService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package kitchenpos.infra.repository;
+package kitchenpos.menu.infra.repository;
 
 import kitchenpos.menu.domain.entity.MenuGroup;
 import kitchenpos.menu.domain.repository.MenuGroupRepository;
