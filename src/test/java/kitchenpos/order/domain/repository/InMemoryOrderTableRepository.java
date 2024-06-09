@@ -1,7 +1,6 @@
-package kitchenpos.application;
+package kitchenpos.order.domain.repository;
 
 import kitchenpos.order.domain.entity.OrderTable;
-import kitchenpos.order.domain.repository.OrderTableRepository;
 
 import java.util.ArrayList;
 import java.util.HashMap;

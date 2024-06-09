@@ -1,5 +1,9 @@
-package kitchenpos.application;
+package kitchenpos.order.application;
 
+import kitchenpos.common.FakeKitchenridersClient;
+import kitchenpos.menu.domain.repository.InMemoryMenuRepository;
+import kitchenpos.order.domain.repository.InMemoryOrderRepository;
+import kitchenpos.order.domain.repository.InMemoryOrderTableRepository;
 import kitchenpos.menu.domain.repository.MenuRepository;
 import kitchenpos.order.domain.entity.Order;
 import kitchenpos.order.domain.entity.OrderLineItem;
@@ -8,7 +12,6 @@ import kitchenpos.order.domain.OrderStatus;
 import kitchenpos.order.domain.entity.OrderTable;
 import kitchenpos.order.domain.repository.OrderTableRepository;
 import kitchenpos.order.domain.OrderType;
-import kitchenpos.order.domain.application.OrderService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

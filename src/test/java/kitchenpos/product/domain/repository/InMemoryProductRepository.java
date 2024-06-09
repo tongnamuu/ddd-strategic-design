@@ -1,7 +1,6 @@
-package kitchenpos.application;
+package kitchenpos.product.domain.repository;
 
 import kitchenpos.product.domain.entity.Product;
-import kitchenpos.product.domain.repository.ProductRepository;
 
 import java.util.ArrayList;
 import java.util.HashMap;
